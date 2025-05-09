@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container aside {
+width: 50vw;
+height: 100vh;
+background-image: url(/images/photo-1585202900225-6d3ac20a6962.avif);
+background-position: center;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+
+.color {
+background: linear-gradient(to right, rgba(0, 0, 0, 0.116), black);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 300px;
+width: 100%;
+
+
+}
+
+@font-face {
+    font-family: Norse Bold;
+    src: url(/Norse-Bold.otf);
+  }
+
+
+aside h1 {
+    color: white;
+    font-size: 90px;
+font-family: Norse Bold;
+}
+
+.color img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+
+
+  aside a {
+    color: white;
+
+  }
+
+
+  aside p {
+    margin-top: auto;
+    padding: 10px;
+    color: white;
+  }
+
+
+  .container {
+    display: flex;
+  }
+
+  main {
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+
+  main p {
+    font-size: 25px;
+    font-weight: bold;
+  font-style: italic;
+  
+  }
+
+  .text {
+    margin-top: 250px;
+    margin-left: 50px;
+
+  }
+
+  .text p:nth-child(4) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  label {
+    display: block;
+    margin-top: 20px;
+    font-family: Norse Bold;
+    letter-spacing: 3px;
+    color: rgb(81, 81, 81);
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+
+  input:invalid {
+    border: 1px solid red;
+  }
+  input:valid {
+    border: none;
+  }
+
+  main {
+    background-color: #f0f1f4;
+  }
+
+  form {
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+    padding-top: 20px;
+  
+  }
+
+form h2 {
+    margin-left: 70px;
+    padding-top: 20px;
+font-family: 'Courier New', Courier, monospace;
+font-style: italic;
+
+
+}
+
+
+button {
+    background-color: #596d48;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.link a {
+    text-decoration: none;
+    color: #596d48;
+
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+}
