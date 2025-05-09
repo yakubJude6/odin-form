@@ -124,9 +124,7 @@ font-family: Norse Bold;
   input:invalid {
     border: 1px solid red;
   }
-  input:valid {
-    border: none;
-  }
+
 
   main {
     background-color: #f0f1f4;
